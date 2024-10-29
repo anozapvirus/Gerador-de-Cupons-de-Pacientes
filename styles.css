@@ -1,0 +1,111 @@
+/* Definindo dimensões fixas para o container do popup */
+.container {
+  font-family: Arial, sans-serif;
+  text-align: left;
+  padding: 12px;
+ 
+  width: 299px; /* Largura  */
+  height: 409px; /* Altura  */
+  background-color: #1c1c1c;
+  color: #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+ 
+  box-sizing: border-box;
+}
+
+
+
+/* Ajustes no cabeçalho */
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #2b2b2b;
+  padding: 8px;
+  border-radius: 5px;
+  margin-bottom: 12px;
+}
+
+.logo {
+  width: 55px; /* Ajusta o tamanho do logo */
+  height: auto;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  font-size: 12px; /* Texto ajustado para melhor visualização */
+  color: #b0b0b0;
+  text-align: center;
+}
+
+/* Botão principal */
+.button {
+  background-color: #3b82f6;
+  color: #ffffff;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 8px;
+  width: 100%;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 8px 0;
+  font-size: 12px;
+}
+
+.icon {
+  font-size: 16px;
+  color: #e0e0e0;
+}
+
+/* Botão de Suporte via WhatsApp */
+.support-button {
+  background-color: #25d366;
+  color: #ffffff;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  cursor: pointer;
+  gap: 5px;
+  width: 100%;
+}
+
+/* Estilo do aviso de sessão expirada */
+.aviso {
+  position: fixed;
+  top: 232px;
+  right: 18px;
+  background-color: #e53935; /* Cor vermelha */
+  color: #ffffff;
+  padding: 7px 26px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+  z-index: 1000;
+}
+
+.aviso .fechar-aviso {
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+}
