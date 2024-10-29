@@ -52,6 +52,19 @@ O cupom impresso inclui:
 - **ID e Nome do Paciente**: Dados capturados diretamente da plataforma Clinicando.
 - **Mensagem de Atendimento**: "Atendimento com Qualidade e Precisão!".
 
+
+src/
+├── components/
+│   ├── CupomGenerator.js      # Componente principal para geração do cupom
+│   ├── SupportButton.js       # Componente para botão de suporte do WhatsApp
+├── assets/
+│   ├── logo.png               # Logo do laboratório
+├── App.js                     # Componente principal da extensão
+├── styles.css                 # Estilos globais
+popup.html                     # Estrutura HTML inicial
+manifest.json                  # Arquivo de configuração da extensão
+
+
 ## Capturas de Tela
 
 | Tela de Seleção | Cupom Gerado |
