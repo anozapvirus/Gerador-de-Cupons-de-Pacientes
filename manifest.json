@@ -14,9 +14,12 @@
       "js": ["content.js"]
     }
   ],
+<<<<<<< HEAD
   "background": {
     "service_worker": "background.js"
   },
+=======
+>>>>>>> 110c82278fae2b88030eeeda95915cfaec51e3a4
   "content_security_policy": {
     "extension_pages": "script-src 'self'; object-src 'self'"
   }
